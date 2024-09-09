@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author        = { 'Damien' => 'damien@delba.io' }
   s.summary       = 'A unified API to ask for permissions on iOS'
   s.source        = { :git => 'https://github.com/delba/Permission.git', :tag => s.version }
-  s.swift_version = '5.1'
+  s.swift_version = '5.0'
 
   s.weak_framework = 'Speech'
 
